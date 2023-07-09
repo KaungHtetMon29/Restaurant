@@ -146,7 +146,7 @@ function App() {
           </g>
         </svg>
       </div>
-      <div className="">
+      <div className="t">
         <NavBar />
         <div>
           <Home />
