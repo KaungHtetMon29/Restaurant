@@ -7,7 +7,7 @@ import CustButton from 'components/button/button'
 
 export function Sdish() {
   return (
-    <div className="flex flex-col justify-center mx-82 z-48">
+    <div className="flex flex-col justify-center mx-82 z-48 pb-40">
       <div className="flex flex-col">
         <div className="text-7xl pt-32 text-center">
           <p>Our Special Dishes</p>
