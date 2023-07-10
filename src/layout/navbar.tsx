@@ -2,20 +2,22 @@ import CustButton from 'components/button/button'
 import { useEffect } from 'react'
 
 function NavBar() {
-  var navb = document.querySelector('.nav')
-  const scrolldetect = () => {
-    if (window.scrollY > 200) {
-      navb?.classList.add('bg-white')
-      navb?.classList.add('pb-5')
-    } else {
-      navb?.classList.remove('bg-white')
-      navb?.classList.remove('pb-5')
-    }
-  }
-
   useEffect(() => {
-    window.addEventListener('scroll', scrolldetect, true)
-  }, [window.scroll])
+    var navb = document.querySelector('.nav')
+    const scrolldetect = () => {
+      if (window.scrollY > 200) {
+        navb?.classList.add('bg-white')
+        navb?.classList.add('pb-5')
+      } else {
+        navb?.classList.remove('bg-white')
+        navb?.classList.remove('pb-5')
+      }
+    }
+    window.addEventListener('scroll', scrolldetect, false)
+    return () => {
+      window.removeEventListener('scroll', scrolldetect)
+    }
+  }, [])
   return (
     <div className="flex text-center items-center justify-center pt-10 sticky top-0 z-50 nav ">
       <div className="pr-32 pb-3">
