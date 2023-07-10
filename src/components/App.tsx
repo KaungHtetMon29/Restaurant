@@ -4,6 +4,7 @@ import Avatar from 'components/Avatar'
 import CustButton from './button/button'
 import NavBar from 'layout/navbar'
 import { Home } from 'pages/home'
+import { Sdish } from 'pages/specialdishes'
 
 function App() {
   return (
@@ -148,10 +149,12 @@ function App() {
       </div>
       <div className="t">
         <NavBar />
-        <div>
+        <div className="">
           <Home />
         </div>
-        <div></div>
+        <div className="bg-custgray">
+          <Sdish />
+        </div>
         <div></div>
         <div></div>
       </div>

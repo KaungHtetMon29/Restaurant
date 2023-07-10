@@ -4,12 +4,12 @@ import dish from '../Assets/dish-2 1.png'
 
 export function Home() {
   return (
-    <div className="flex mx-82">
+    <div className="flex mx-82 mb-40">
       <div className="text-7xl w-1/2 pt-60">
         <p className="tracking-wide font-semibold">
           We provide the <br /> best food for you
         </p>
-        <p className="font-segoe font-normal text-xl mt-24 w-3/4 leading-10 bg-cust  ...">
+        <p className="font-segoe font-normal text-xl mt-24 w-3/4 leading-10  ...">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
