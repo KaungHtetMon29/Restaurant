@@ -7,7 +7,7 @@ import twitter from '../Assets/svgs/twitter.svg'
 
 export function Home() {
   return (
-    <div className="flex relative 2xl:mx-82 2xl:mb-40 xl:mx-52 xl:mb-20">
+    <div className="flex relative 2xl:mx-82 2xl:mb-40 xl:mx-60 xl:mb-20">
       <div className="2xl:text-7xl w-1/2 2xl:pt-60 xl:pt-60 xl:text-5xl">
         <p className="tracking-wide font-semibold">
           We provide the <br /> best food for you
@@ -16,8 +16,8 @@ export function Home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div className="flex w-3/5 2xl:text-lg 2xl:pt-10 xl:text-lg xl:pt-10">
-          <div className="w-1/3">
+        <div className="flex w-2/3 2xl:text-lg 2xl:pt-10 xl:text-lg xl:pt-10">
+          <div className="w-1/3 ">
             <CustButton txt="Menu" clr="bg-custblack" />
           </div>
           <div className="w-2/3">
@@ -36,12 +36,12 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="flex m-auto mr-0 relative">
-        <div className="w-11/12 m-auto 2xl:mt-40 xl:mt-36 xl:w-10/12">
+      <div className="flex m-auto mr-0 relative  w-fit">
+        <div className="2xl:w-11/12 2xl:m-auto 2xl:mt-40 xl:m-auto xl:mt-36 xl:w-10/12  xl:mr-0">
           <img src={menu} alt="" />
         </div>
       </div>
-      <div className="absolute 2xl:-bottom-16 right-1/3  bottom-0 w-80">
+      <div className="absolute 2xl:bottom-0 2xl:right-1/4 xl:right-1/4 xl:bottom-0">
         <img src={dish} alt="" className="" />
       </div>
     </div>

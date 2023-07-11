@@ -37,7 +37,7 @@ function App() {
           <Home />
         </div>
         <div className="bg-custgray ">
-          <img src={dish} className="absolute right-0" />
+          <img src={dish} className="absolute right-0 " />
           <div className="relative">
             <Sdish />
           </div>
@@ -48,7 +48,7 @@ function App() {
         </div>
 
         <div className="relative">
-          <div className="absolute flex mx-auto w-fit left-0 right-0 promo">
+          <div className="absolute flex mx-auto left-0 right-0 promo 2xl:w-fit xl:w-1/2">
             <Getpromo />
           </div>
           <div className="bg-custgray ">

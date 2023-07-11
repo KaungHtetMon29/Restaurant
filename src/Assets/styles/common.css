@@ -1,3 +1,9 @@
 .promo {
   top: 45%;
 }
+
+@media only screen and (min-width: 1280px) {
+  .promo {
+    top: 50%;
+  }
+}

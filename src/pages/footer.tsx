@@ -4,8 +4,8 @@ import fb from '../Assets/svgs/fbicon.svg'
 import twitter from '../Assets/svgs/twitter.svg'
 export function Foter() {
   return (
-    <div className="flex flex-col mx-82 pt-40 pb-52">
-      <div className="flex pt-40">
+    <div className="flex flex-col 2xl:mx-82 xl:mx-60 2xl:pt-40 xl:pt-40 pb-52">
+      <div className="flex 2xl:pt-40 xl:pt-12">
         <div className="flex flex-col w-1/2 ">
           <div>
             <img src={logo} alt="" />
@@ -16,8 +16,8 @@ export function Foter() {
           </div>
           <div className="mt-20">
             <h2 className="font-segoe font-bold">OPENING HOURS</h2>
-            <div className="flex font-segoe mt-12">
-              <div className="flex flex-col mr-12">
+            <div className="flex font-segoe mt-12 2xl:text-md xl:text-xs">
+              <div className="flex flex-col 2xl:mr-12 xl:mr-6">
                 <div>
                   <p>Monday - Friday</p>
                 </div>
@@ -25,7 +25,7 @@ export function Foter() {
                   <p>8:00 am to 9:00 pm</p>
                 </div>
               </div>
-              <div className="flex flex-col mr-12">
+              <div className="flex flex-col 2xl:mr-12  xl:mr-6">
                 <div>
                   <p>Monday - Friday</p>
                 </div>
@@ -44,7 +44,7 @@ export function Foter() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 flex mt-12 mx-12 font-segoe">
+        <div className="w-1/2 flex mt-12 mx-12 font-segoe 2xl:text-lg xl:text-sm">
           <div className="w-1/2 flex flex-col">
             <div className="font-bold pb-6">
               <p>NAVIGATION</p>
@@ -81,7 +81,7 @@ export function Foter() {
           </div>
         </div>
         <div className="w-1/3 font-segoe mt-12">
-          <div className="font-bold">
+          <div className="font-bold 2xl:text-lg xl:text-md">
             <p>Follow Us</p>
           </div>
           <div className="flex mt-6">

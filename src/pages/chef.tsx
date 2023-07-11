@@ -3,18 +3,20 @@ import chef from '../Assets/chef 1.png'
 
 export function Chef() {
   return (
-    <div className="mx-82 mt-40 mb-40">
+    <div className="2xl:mx-82 mt-40 mb-40 xl:mx-60">
       <div className="flex ">
-        <div className="w-1/2 flex flex-col justify-start mt-32 ">
-          <h1 className="text-6xl font-bold">Our Expects Chef</h1>
-          <p className="font-segoe text-2xl pt-12 leading-10 tracking-wide">
+        <div className="w-1/2 flex flex-col justify-start 2xl:mt-32 xl:mt-14 ">
+          <h1 className="2xl:text-6xl xl:text-5xl font-bold">
+            Our Expects Chef
+          </h1>
+          <p className="font-segoe 2xl:text-2xl xl:font-3xl pt-12 2xl:leading-10 xl:leading-8 tracking-wide">
             Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed
             do eiusmod tempor incididunt <br /> ut labore et dolore magna
             aliqua.
           </p>
-          <div className="flex font-segoe pt-12 text-lg font-light">
-            <div className="flex-col pr-12 w-1/2 ">
-              <div className="py-6 flex items-center">
+          <div className="flex font-segoe pt-12 2xl:text-lg xl:text-sm font-light">
+            <div className="flex-col pr-12 w-fit ">
+              <div className="2xl:py-6 xl:py-4 flex items-center">
                 <svg
                   width="48"
                   height="24"
@@ -42,7 +44,7 @@ export function Chef() {
 
                 <p className="pl-2">Lorem ipsum dolor sit amet, consectetur </p>
               </div>
-              <div className="py-6 flex items-center">
+              <div className="2xl:py-6 xl:py-4 flex items-center">
                 <svg
                   width="48"
                   height="24"
@@ -70,7 +72,7 @@ export function Chef() {
 
                 <p className="pl-2">Lorem ipsum dolor sit amet, consectetur </p>
               </div>
-              <div className="py-6 flex items-center">
+              <div className="2xl:py-6 xl:py-4 flex items-center">
                 <svg
                   width="48"
                   height="24"
@@ -99,8 +101,8 @@ export function Chef() {
                 <p className="pl-2">Lorem ipsum dolor sit amet, consectetur </p>
               </div>
             </div>
-            <div className="flex-col  w-1/2">
-              <div className="py-6 flex items-center">
+            <div className="flex-col  w-fit">
+              <div className="2xl:py-6 xl:py-4 flex items-center">
                 <svg
                   width="48"
                   height="24"
@@ -128,7 +130,7 @@ export function Chef() {
 
                 <p className="pl-2">Lorem ipsum dolor sit amet, consectetur </p>
               </div>
-              <div className="py-6 flex items-center">
+              <div className="2xl:py-6 xl:py-4 flex items-center">
                 <svg
                   width="48"
                   height="24"
@@ -156,7 +158,7 @@ export function Chef() {
 
                 <p className="pl-2">Lorem ipsum dolor sit amet, consectetur </p>
               </div>
-              <div className="py-6 flex items-center">
+              <div className="2xl:py-6 xl:py-4 flex items-center">
                 <svg
                   width="48"
                   height="24"
@@ -186,7 +188,7 @@ export function Chef() {
               </div>
             </div>
           </div>
-          <div className="flex w-2/3 justify-center m-auto">
+          <div className="flex w-2/3 2xl:pt-0 xl:pt-10 justify-center m-auto">
             <div className="w-1/3">
               <CustButton txt="Menu" clr="bg-custblack" />
             </div>
@@ -195,7 +197,7 @@ export function Chef() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 flex justify-end">
+        <div className=" flex justify-end">
           <div className="w-full pl-10">
             <img src={chef} alt="" className="w-full" />
           </div>

@@ -18,15 +18,15 @@ export function Customercard() {
   }
   return (
     <div className="flex  relative ">
-      <div className="flex relative mx-82 overflow-hidden">
+      <div className="flex relative 2xl:mx-82 xl:mx-64 overflow-hidden">
         <div className=" flex relative pb-72 ..." id="test">
-          <div className="relative flex mr-5 w-1/3">
-            <div className="absolute w-fit m-auto left-0 right-0 top-10">
+          <div className="relative flex mr-5">
+            <div className="absolute 2xl:w-fit xl:w-fit m-auto left-0 right-0 top-10">
               <img src={customer} />
             </div>
-            <div className="bg-white shadow-md mt-24 pt-32 pb-8 justify-center font-segoe rounded-tl-4xl rounded-tr-3xl rounded-bl-3xl rounded-br-4xl">
+            <div className="bg-white shadow-md mt-24 2xl:pt-32 xl:pt-28 2xl:pb-8 xl:pb-6 justify-center font-segoe rounded-tl-4xl rounded-tr-3xl rounded-bl-3xl rounded-br-4xl">
               <div className="px-4">
-                <p className="text-center font-normal leading-6 px-4 text-sm ...">
+                <p className="text-center font-normal leading-6 px-4 2xl:text-sm xl:text-sm ...">
                   Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam
                   sit. Vitae congue ultrices neque penatibus mi in quisque. Leo
                   in cursus enim magnis ante. Proin iaculis platea ipsum
@@ -37,13 +37,13 @@ export function Customercard() {
               </div>
             </div>
           </div>
-          <div className="relative flex mr-5 w-1/3">
-            <div className="absolute w-fit m-auto left-0 right-0 top-10">
+          <div className="relative flex mr-5">
+            <div className="absolute 2xl:w-fit xl:w-fit m-auto left-0 right-0 top-10">
               <img src={customer} />
             </div>
-            <div className="bg-white shadow-md mt-24 pt-32 pb-8 justify-center font-segoe rounded-tl-4xl rounded-tr-3xl rounded-bl-3xl rounded-br-4xl">
+            <div className="bg-white shadow-md mt-24 2xl:pt-32 xl:pt-28 2xl:pb-8 xl:pb-6 justify-center font-segoe rounded-tl-4xl rounded-tr-3xl rounded-bl-3xl rounded-br-4xl">
               <div className="px-4">
-                <p className="text-center font-normal leading-6 px-4 text-sm ...">
+                <p className="text-center font-normal leading-6 px-4 2xl:text-sm xl:text-sm ...">
                   Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam
                   sit. Vitae congue ultrices neque penatibus mi in quisque. Leo
                   in cursus enim magnis ante. Proin iaculis platea ipsum
@@ -54,13 +54,13 @@ export function Customercard() {
               </div>
             </div>
           </div>
-          <div className="relative flex mr-5 w-1/3">
-            <div className="absolute w-fit m-auto left-0 right-0 top-10">
+          <div className="relative flex mr-5">
+            <div className="absolute 2xl:w-fit xl:w-fit m-auto left-0 right-0 top-10">
               <img src={customer} />
             </div>
-            <div className="bg-white shadow-md mt-24 pt-32 pb-8 justify-center font-segoe rounded-tl-4xl rounded-tr-3xl rounded-bl-3xl rounded-br-4xl">
+            <div className="bg-white shadow-md mt-24 2xl:pt-32 xl:pt-28 2xl:pb-8 xl:pb-6 justify-center font-segoe rounded-tl-4xl rounded-tr-3xl rounded-bl-3xl rounded-br-4xl">
               <div className="px-4">
-                <p className="text-center font-normal leading-6 px-4 text-sm ...">
+                <p className="text-center font-normal leading-6 px-4 2xl:text-sm xl:text-sm ...">
                   Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam
                   sit. Vitae congue ultrices neque penatibus mi in quisque. Leo
                   in cursus enim magnis ante. Proin iaculis platea ipsum
