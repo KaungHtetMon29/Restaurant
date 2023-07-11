@@ -2,12 +2,12 @@
   top: 45%;
 }
 
-@media only screen and (min-width: 1530px) {
+@media (max-width: 1920px) {
   .promo {
     top: 45%;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media (max-width: 1530px) {
   .promo {
     top: 50%;
   }

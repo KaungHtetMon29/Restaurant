@@ -1,7 +1,7 @@
 export function Searchbox() {
   return (
     <div className="flex  font-segoe flex-col ">
-      <p className="2xl:text-5xl xl:text-2xl text-center text-white 2xl:pb-12 xl:pb-6 font-David px-14 leading-10 ... ">
+      <p className="2xl:text-5xl xl:text-2xl text-center text-white 2xl:pb-12 xl:pb-6 font-David 2xl:px-14 xl:px-6 leading-10 ... ">
         Get Our Promo Code by Subscribing To our Newsletter
       </p>
       <div className=" bg-white py-4 px-4 rounded-xl flex w-fit m-auto">
