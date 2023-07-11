@@ -11,6 +11,11 @@ import textcircle from '../Assets/svgs/textcircle.svg'
 import leavehome from '../Assets/svgs/leaveshome.svg'
 import dish from '../Assets/svgs/dish.svg'
 import onion from '../Assets/svgs/chef.svg'
+import { Slider } from 'utils/slider'
+import { Hcustomer } from 'pages/happycustomer'
+import customer from '../Assets/svgs/customer.svg'
+import { Foter } from 'pages/footer'
+import { Getpromo } from 'layout/promocode'
 
 function App() {
   return (
@@ -24,7 +29,7 @@ function App() {
       <div className="absolute right-36 mt-36">
         <img src={leavehome} />
       </div>
-      <div className="t">
+      <div className="">
         <NavBar />
         <div className="">
           <Home />
@@ -39,7 +44,17 @@ function App() {
           <img src={onion} className="absolute top-0 left-0" />
           <Chef />
         </div>
-        <div></div>
+        <div className="bg-custgray ">
+          <div className="absolute mt-32">
+            <img src={customer} />
+          </div>
+
+          <Hcustomer />
+        </div>
+
+        <div>
+          <Foter />
+        </div>
       </div>
     </div>
   )

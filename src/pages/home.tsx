@@ -41,7 +41,7 @@ export function Home() {
           <img src={menu} alt="" />
         </div>
       </div>
-      <div className="absolute bottom-0 right-1/3 ">
+      <div className="absolute -bottom-16 right-1/3 ">
         <img src={dish} alt="" className="" />
       </div>
     </div>

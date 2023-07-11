@@ -4,6 +4,9 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        promo: "url('./src/Assets/prmo.png')"
+      },
       colors: {
         custorange: '#EA6D27',
         custblack: '#101A24',
