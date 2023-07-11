@@ -19,8 +19,8 @@ function NavBar() {
     }
   }, [])
   return (
-    <div className="flex text-center items-center justify-center pt-10 sticky top-0 z-50 nav ">
-      <div className="pr-32 pb-3">
+    <div className="flex text-center items-center justify-center 2xl:pt-10 xl:pt-10 sticky top-0 z-50 nav  ">
+      <div className="2xl:pr-32 2xl:pb-3 xl:pr-12 xl:pb-3">
         <svg
           width="160"
           height="50"
@@ -82,35 +82,35 @@ function NavBar() {
           </defs>
         </svg>
       </div>
-      <div className="flex text-lg">
-        <div className="pl-10 pr-5 cursor-pointer font-segoe font-semibold ">
+      <div className="flex 2xl:text-lg xl:text-md">
+        <div className="2xl:pl-5 2xl:pr-5 xl:pl-5 xl:pr-2 cursor-pointer font-segoe font-semibold ">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md ...">
             Menu
           </p>
         </div>
-        <div className="pl-10 pr-5 cursor-pointer font-segoe font-semibold">
+        <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-2 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Event
           </p>
         </div>
-        <div className="pl-10 pr-5 cursor-pointer font-segoe font-semibold">
+        <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-2 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Gallery
           </p>
         </div>
-        <div className="pl-10 pr-5 cursor-pointer font-segoe font-semibold">
+        <div className="2xl:pl-10 2xl:pr-5 xxl:pl-5 xl:pr-2 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             About
           </p>
         </div>
-        <div className="pl-10 pr-5 cursor-pointer font-segoe font-semibold">
+        <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Contact
           </p>
         </div>
       </div>
 
-      <div className="pl-32">
+      <div className="2xl:pl-32 xl:pl-12">
         <CustButton txt="Book a Table" clr="bg-custorange" />
       </div>
     </div>

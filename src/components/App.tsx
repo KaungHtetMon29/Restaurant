@@ -16,14 +16,16 @@ import { Hcustomer } from 'pages/happycustomer'
 import customer from '../Assets/svgs/customer.svg'
 import { Foter } from 'pages/footer'
 import { Getpromo } from 'layout/promocode'
+import { Searchbox } from './searchbox/searchbox'
+import 'Assets/styles/common.css'
 
 function App() {
   return (
     <div className="">
-      <div className="absolute">
+      <div className="absolute w-96">
         <img src={circle} />
       </div>
-      <div className="absolute left-48 top-60  ...">
+      <div className="absolute 2xl:left-48 2xl:top-60 xl:left-28 xl:top-32  ...">
         <img src={textcircle} />
       </div>
       <div className="absolute right-36 mt-36">
@@ -44,16 +46,20 @@ function App() {
           <img src={onion} className="absolute top-0 left-0" />
           <Chef />
         </div>
-        <div className="bg-custgray ">
-          <div className="absolute mt-32">
-            <img src={customer} />
+
+        <div className="relative">
+          <div className="absolute flex mx-auto w-fit left-0 right-0 promo">
+            <Getpromo />
           </div>
-
-          <Hcustomer />
-        </div>
-
-        <div>
-          <Foter />
+          <div className="bg-custgray ">
+            <div className="absolute mt-32">
+              <img src={customer} />
+            </div>
+            <Hcustomer />
+          </div>
+          <div>
+            <Foter />
+          </div>
         </div>
       </div>
     </div>

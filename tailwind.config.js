@@ -13,7 +13,8 @@ module.exports = {
         custgray: '#F3F4F4'
       },
       fontFamily: {
-        segoe: ['Segoe UI']
+        segoe: ['Segoe UI'],
+        David: ['David-libre']
       },
       margin: {
         82: '21rem'
