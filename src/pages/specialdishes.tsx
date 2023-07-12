@@ -4,6 +4,7 @@ import dish3 from '../Assets/dish-4.png'
 import dish4 from '../Assets/dish-5.png'
 import dish from '../Assets/dish-2 2.png'
 import CustButton from 'components/button/button'
+import { motion } from 'framer-motion'
 
 export function Sdish() {
   return (
@@ -20,7 +21,14 @@ export function Sdish() {
         </div>
       </div>
       <div className="flex justify-center 2xl:mt-32 xl:mt-40">
-        <div className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4">
+        <motion.div
+          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          whileHover={{ scale: 1.1, transition: { delay: 0 } }}
+          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: 100, opacity: 0 }}
+          transition={{ type: 'spring', delay: 0 }}
+          exit={{ y: 100, opacity: 0 }}
+        >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
             <img src={dish1} className="2xl:w-full xl:w-44" />
           </div>
@@ -33,8 +41,18 @@ export function Sdish() {
               <br /> do eiusmod tempor
             </p>
           </div>
-        </div>
-        <div className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4">
+        </motion.div>
+        <motion.div
+          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          whileHover={{ scale: 1.1, transition: { delay: 0 } }}
+          whileInView={{
+            y: 0,
+            opacity: 1,
+            transition: { type: 'spring', delay: 0.1 }
+          }}
+          initial={{ y: 100, opacity: 0 }}
+          exit={{ y: 100, opacity: 0 }}
+        >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
             <img src={dish2} className="2xl:w-full xl:w-44" />
           </div>
@@ -45,8 +63,18 @@ export function Sdish() {
               <br /> do eiusmod tempor
             </p>
           </div>
-        </div>
-        <div className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4">
+        </motion.div>
+        <motion.div
+          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          whileHover={{ scale: 1.1, transition: { delay: 0 } }}
+          whileInView={{
+            y: 0,
+            opacity: 1,
+            transition: { type: 'spring', delay: 0.2 }
+          }}
+          initial={{ y: 100, opacity: 0 }}
+          exit={{ y: 100, opacity: 0 }}
+        >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
             <img src={dish3} className="2xl:w-full xl:w-44" />
           </div>
@@ -57,8 +85,18 @@ export function Sdish() {
               <br /> do eiusmod tempor
             </p>
           </div>
-        </div>
-        <div className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4">
+        </motion.div>
+        <motion.div
+          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          whileHover={{ scale: 1.1, transition: { delay: 0 } }}
+          whileInView={{
+            y: 0,
+            opacity: 1,
+            transition: { type: 'spring', delay: 0.3 }
+          }}
+          initial={{ y: 100, opacity: 0 }}
+          exit={{ y: 100, opacity: 0 }}
+        >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
             <img src={dish4} className="2xl:w-full xl:w-44" />
           </div>
@@ -69,7 +107,7 @@ export function Sdish() {
               <br /> do eiusmod tempor
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className="2xl:mt-40 xl:mt-12 flex">
         <div className="flex">
