@@ -1,7 +1,12 @@
 import CustButton from 'components/button/button'
 import { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 function NavBar() {
+  const usenavi = useNavigate()
+  const clicktest = (e: String) => {
+    usenavi(`${e}`)
+  }
   useEffect(() => {
     var navb = document.querySelector('.nav')
     const scrolldetect = () => {
@@ -83,7 +88,12 @@ function NavBar() {
         </svg>
       </div>
       <div className="flex 2xl:text-lg xl:text-md">
-        <div className="2xl:pl-5 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold ">
+        <div
+          className="2xl:pl-5 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold "
+          onClick={() => {
+            clicktest('chef')
+          }}
+        >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md ...">
             Menu
           </p>

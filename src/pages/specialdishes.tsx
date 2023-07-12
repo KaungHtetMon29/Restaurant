@@ -39,9 +39,7 @@ export function Sdish() {
             <img src={dish2} className="2xl:w-full xl:w-44" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
-            <p className="font-bold 2xl:text-xl xl:text-lg">
-              Lumpia with Suace
-            </p>
+            <p className="font-bold 2xl:text-xl xl:text-lg">Fish and Veggie</p>
             <p className=" font-segoe 2xl:text-base 2xl:pt-8 xl:pt-8 xl:px-2 xl:text-xs leading-6">
               Lorem ipsum dolor sit , <br /> consectetur adipiscing elit, sed{' '}
               <br /> do eiusmod tempor
@@ -53,9 +51,7 @@ export function Sdish() {
             <img src={dish3} className="2xl:w-full xl:w-44" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
-            <p className="font-bold 2xl:text-xl xl:text-lg">
-              Lumpia with Suace
-            </p>
+            <p className="font-bold 2xl:text-xl xl:text-lg">Tofu Chili</p>
             <p className=" font-segoe 2xl:text-base 2xl:pt-8 xl:pt-8 xl:px-2 xl:text-xs leading-6">
               Lorem ipsum dolor sit , <br /> consectetur adipiscing elit, sed{' '}
               <br /> do eiusmod tempor
@@ -67,9 +63,7 @@ export function Sdish() {
             <img src={dish4} className="2xl:w-full xl:w-44" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
-            <p className="font-bold 2xl:text-xl xl:text-lg">
-              Lumpia with Suace
-            </p>
+            <p className="font-bold 2xl:text-xl xl:text-lg">Egg and Cocumber</p>
             <p className=" font-segoe 2xl:text-base 2xl:pt-8 xl:px-2 xl:pt-8 xl:text-xs leading-6">
               Lorem ipsum dolor sit , <br /> consectetur adipiscing elit, sed{' '}
               <br /> do eiusmod tempor
