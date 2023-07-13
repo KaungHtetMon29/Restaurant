@@ -9,7 +9,7 @@ import { motion, spring } from 'framer-motion'
 export function Home() {
   return (
     <div className="flex relative 2xl:mx-82 2xl:mb-40 xl:mx-60 xl:mb-20">
-      <div className="2xl:text-7xl w-1/2 2xl:pt-60 xl:pt-60 xl:text-5xl overflow-hidden">
+      <div className="2xl:text-7xl w-1/2 2xl:pt-60 xl:pt-60 xl:text-5xl">
         <motion.p
           className="tracking-wide font-semibold "
           initial={{ opacity: 0 }}
