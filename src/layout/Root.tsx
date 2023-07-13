@@ -21,13 +21,10 @@ function Root() {
       <div className="fixed top-0 mx-auto left-0 right-0 z-50">
         <NavBar />
       </div>
-      {ready ? (
-        <div className="">
-          <Outlet />
-        </div>
-      ) : (
-        <div>loading</div>
-      )}
+      <div className="">
+        <Outlet />
+      </div>
+      <div>loading</div>
     </div>
   )
 }
