@@ -8,7 +8,9 @@ function Root() {
   const [ready, setready] = useState<Boolean>()
   useEffect(() => {
     window.addEventListener('load', () => {
-      setready(true)
+      setInterval(() => {
+        setready(true)
+      }, 1500)
     })
   }, [])
   return (
