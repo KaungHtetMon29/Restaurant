@@ -95,7 +95,7 @@ function NavBar() {
           }}
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md ...">
-            Menu
+            Home
           </p>
         </div>
         <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
@@ -110,7 +110,7 @@ function NavBar() {
         </div>
         <div className="2xl:pl-10 2xl:pr-5 xxl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
-            About
+            About Us
           </p>
         </div>
         <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">

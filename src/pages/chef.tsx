@@ -6,7 +6,7 @@ export function Chef() {
   return (
     <div className="2xl:mx-82 mt-40 mb-40 xl:mx-60">
       <div className="flex ">
-        <div className="w-1/2 flex flex-col justify-start 2xl:mt-32 xl:mt-14 ">
+        <div className="w-1/2 flex flex-col justify-start 2xl:mt-14 xl:mt-14 ">
           <h1 className="2xl:text-6xl xl:text-5xl font-bold">
             Our Expects Chef
           </h1>
