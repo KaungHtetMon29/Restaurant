@@ -1,5 +1,6 @@
 import CustButton from 'components/button/button'
 import chef from '../Assets/chef 1.png'
+import { motion } from 'framer-motion'
 
 export function Chef() {
   return (
@@ -198,9 +199,13 @@ export function Chef() {
           </div>
         </div>
         <div className=" flex justify-end">
-          <div className="w-full pl-10">
+          <motion.div
+            className="w-full pl-10"
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+          >
             <img src={chef} alt="" className="w-full" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

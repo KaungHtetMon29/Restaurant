@@ -111,9 +111,17 @@ export function Sdish() {
       </div>
       <div className="2xl:mt-40 xl:mt-12 flex">
         <div className="flex">
-          <div className="w-1/2 m-auto">
+          <motion.div
+            className="w-1/2 m-auto"
+            initial={{ scale: 0, rotate: 180 }}
+            whileInView={{
+              scale: 1,
+              rotate: 0,
+              transition: { duration: 0.4, type: 'spring' }
+            }}
+          >
             <img src={dish} alt="" className="w-fit" />
-          </div>
+          </motion.div>
           <div className="w-1/2 2xl:mt-52 2xl:pl-24 xl:mt-24 xl:pl-14 xl:mr-20 ">
             <h1 className="2xl:text-5xl xl:text-4xl">
               Welcome to Our Restaurant
