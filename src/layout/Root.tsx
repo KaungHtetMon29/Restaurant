@@ -8,7 +8,9 @@ function Root() {
   const [ready, setready] = useState<Boolean>()
   useEffect(() => {
     window.onload = () => {
-      setready(true)
+      setInterval(() => {
+        setready(true)
+      }, 2000)
     }
     window.onload
   }, [])
