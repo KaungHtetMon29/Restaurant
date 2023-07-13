@@ -1,16 +1,21 @@
 import Main from 'pages/main'
 import NavBar from './navbar'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigation } from 'react-router-dom'
 
 function Root() {
+  const navigation = useNavigation()
   return (
     <div>
       <div className="fixed top-0 mx-auto left-0 right-0 z-50">
         <NavBar />
       </div>
-      <div className="">
-        <Outlet />
-      </div>
+      {navigation.state === 'loading' ? (
+        <div>loading</div>
+      ) : (
+        <div className="">
+          <Outlet />
+        </div>
+      )}
     </div>
   )
 }
