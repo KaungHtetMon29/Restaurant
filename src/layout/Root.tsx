@@ -7,11 +7,14 @@ function Root() {
   const navigation = useNavigation()
   const [ready, setready] = useState<Boolean>()
   useEffect(() => {
-    window.addEventListener('load', () => {
-      setInterval(() => {
-        setready(true)
-      }, 1500)
-    })
+    const onload = () => {
+      window.addEventListener('load', () => {
+        setInterval(() => {
+          setready(true)
+        }, 1500)
+      })
+    }
+    onload()
   }, [])
   return (
     <div>
