@@ -5,19 +5,8 @@ import { useEffect, useState } from 'react'
 
 function Root() {
   const navigation = useNavigation()
-  const [ready, setready] = useState<Boolean>()
-  useEffect(() => {
-    const onload = () => {
-      window.addEventListener('load', () => {
-        setInterval(() => {
-          setready(true)
-        }, 1500)
-      })
-    }
-    onload()
-  }, [])
   return (
-    <div>
+    <div className="relative">
       <div className="fixed top-0 mx-auto left-0 right-0 z-50">
         <NavBar />
       </div>

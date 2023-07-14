@@ -9,7 +9,7 @@ import { motion, spring } from 'framer-motion'
 export function Home() {
   return (
     <div className="flex relative 2xl:mx-82 2xl:mb-40 xl:mx-60 xl:mb-20">
-      <div className="2xl:text-7xl w-1/2 2xl:pt-60 xl:pt-60 xl:text-5xl">
+      <div className="2xl:text-6xl w-1/2 2xl:pt-60 xl:pt-60 xl:text-5xl">
         <motion.p
           className="tracking-wide font-semibold "
           initial={{ opacity: 0 }}
@@ -26,14 +26,14 @@ export function Home() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </motion.p>
         <motion.div
-          className="flex w-2/3 2xl:text-lg 2xl:pt-10 xl:text-lg xl:pt-10"
+          className="flex 2xl:text-lg 2xl:pt-10 xl:text-lg xl:pt-10"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, transition: { duration: 1, delay: 0.2 } }}
         >
-          <div className="w-1/3 ">
+          <div className=" 2xl:pr-4 xl:w-fit xl:pr-4">
             <CustButton txt="Menu" clr="bg-custblack" />
           </div>
-          <div className="w-2/3">
+          <div className="2xl:w-fit">
             <CustButton txt="Book a Table" clr="bg-custorange" />
           </div>
         </motion.div>

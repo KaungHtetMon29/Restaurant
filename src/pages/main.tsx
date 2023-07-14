@@ -21,10 +21,10 @@ function Main() {
       <div className="absolute w-96">
         <img src={circle} />
       </div>
-      <div className="absolute 2xl:left-48 2xl:top-60 xl:left-28 xl:top-32  ...">
+      <div className="absolute 2xl:left-20 2xl:top-60 xl:left-28 xl:top-32  ...">
         <img src={textcircle} />
       </div>
-      <div className="absolute right-36 mt-36">
+      <div className="absolute 2xl:right-36 2xl:mt-36 xl:right-36 xl:mt-32 xl:w-2/5">
         <img src={leavehome} />
       </div>
       <div className="">
@@ -32,7 +32,10 @@ function Main() {
           <Home />
         </div>
         <div className="bg-custgray ">
-          <img src={dish} className="absolute right-0 " />
+          <img
+            src={dish}
+            className="absolute 2xl:right-0 2xl:w-fit xl:w-4/5 xl:right-0 xl:mt-10 2xl:mt-0"
+          />
           <div className="relative">
             <Sdish />
           </div>

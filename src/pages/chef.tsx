@@ -6,7 +6,7 @@ export function Chef() {
   return (
     <div className="2xl:mx-82 mt-40 mb-40 xl:mx-60">
       <div className="flex ">
-        <div className="w-1/2 flex flex-col justify-start 2xl:mt-14 xl:mt-14 ">
+        <div className="w-1/2 flex flex-col justify-start 2xl:mt-14 xl:mt-14 grow  ">
           <h1 className="2xl:text-6xl xl:text-5xl font-bold">
             Our Expects Chef
           </h1>
@@ -189,18 +189,18 @@ export function Chef() {
               </div>
             </div>
           </div>
-          <div className="flex w-2/3 2xl:pt-0 xl:pt-10 justify-center m-auto">
-            <div className="w-1/3">
+          <div className="flex w-2/3 2xl:pt-0 xl:pt-10 justify-start m-auto">
+            <div className="2xl:pr-4 xl:w-fit xl:pr-4">
               <CustButton txt="Menu" clr="bg-custblack" />
             </div>
-            <div className="w-2/3">
+            <div className="w-fit">
               <CustButton txt="Book a Table" clr="bg-custorange" />
             </div>
           </div>
         </div>
         <div className=" flex justify-end">
           <motion.div
-            className="w-full pl-10"
+            className="w-full pl-10 justify-center  "
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
           >

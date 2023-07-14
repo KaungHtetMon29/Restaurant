@@ -17,7 +17,7 @@ module.exports = {
         David: ['David-libre']
       },
       margin: {
-        82: '21rem'
+        82: '17%'
       },
       borderRadius: {
         '4xl': '4rem'

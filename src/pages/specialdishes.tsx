@@ -110,9 +110,9 @@ export function Sdish() {
         </motion.div>
       </div>
       <div className="2xl:mt-40 xl:mt-12 flex">
-        <div className="flex">
+        <div className="flex ">
           <motion.div
-            className="w-1/2 m-auto"
+            className="w-1/2 m-auto flex grow"
             initial={{ scale: 0, rotate: 180 }}
             whileInView={{
               scale: 1,
@@ -122,7 +122,7 @@ export function Sdish() {
           >
             <img src={dish} alt="" className="w-fit" />
           </motion.div>
-          <div className="w-1/2 2xl:mt-52 2xl:pl-24 xl:mt-24 xl:pl-14 xl:mr-20 ">
+          <div className="w-1/2 2xl:mt-52 2xl:pl-24 xl:mt-24 xl:pl-14 2xl:mr-0 ">
             <h1 className="2xl:text-5xl xl:text-4xl">
               Welcome to Our Restaurant
             </h1>
@@ -132,11 +132,11 @@ export function Sdish() {
               aliqua.
             </p>
             <div>
-              <div className="flex w-4/5 text-lg pt-10">
-                <div className="w-1/3">
+              <div className="flex 2xl:w-5/6 xl:5/6 text-lg pt-10">
+                <div className="2xl:w-1/3 xl:w-fit xl:pr-3">
                   <CustButton txt="Menu" clr="bg-custblack" />
                 </div>
-                <div className="w-2/3">
+                <div className="2xl:w-2/3 xl:w-fit">
                   <CustButton txt="Book a Table" clr="bg-custorange" />
                 </div>
               </div>
