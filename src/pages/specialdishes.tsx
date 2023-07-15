@@ -132,11 +132,11 @@ export function Sdish() {
               aliqua.
             </p>
             <div>
-              <div className="flex 2xl:w-5/6 xl:5/6 text-lg pt-10">
-                <div className="2xl:w-1/3 xl:w-fit xl:pr-3">
+              <div className="flex 2xl:w-fit xl:q-5/6 text-lg pt-10">
+                <div className="2xl:w-fit 2xl:pr-4 xl:w-fit xl:pr-3">
                   <CustButton txt="Menu" clr="bg-custblack" />
                 </div>
-                <div className="2xl:w-2/3 xl:w-fit">
+                <div className="2xl:w-fit xl:w-fit">
                   <CustButton txt="Book a Table" clr="bg-custorange" />
                 </div>
               </div>
