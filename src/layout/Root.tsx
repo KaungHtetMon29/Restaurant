@@ -2,6 +2,7 @@ import Main from 'pages/main'
 import NavBar from './navbar'
 import { Outlet, useNavigation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
 
 function Root() {
   const navigation = useNavigation()
@@ -13,7 +14,6 @@ function Root() {
       <div className="">
         <Outlet />
       </div>
-      <div>loading</div>
     </div>
   )
 }

@@ -9,6 +9,8 @@ import { Chef } from 'pages/chef'
 import Main from 'pages/main'
 import Errpage from 'pages/Error'
 import { Testrouter } from 'pages/testrouter'
+import Gcard from './resgallery card/Gallerycard'
+import Gallery from 'pages/Gallery'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
     errorElement: <Errpage />,
     children: [
       { path: '', element: <Main /> },
-      { path: 'footer', element: <Foter /> },
+      { path: 'gallery', element: <Gallery /> },
       {
         path: 'chef',
 

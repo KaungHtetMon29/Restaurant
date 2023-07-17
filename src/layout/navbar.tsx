@@ -91,7 +91,7 @@ function NavBar() {
         <div
           className="2xl:pl-5 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold "
           onClick={() => {
-            clicktest('chef')
+            clicktest('')
           }}
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md ...">
@@ -103,7 +103,12 @@ function NavBar() {
             Event
           </p>
         </div>
-        <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
+        <div
+          onClick={() => {
+            clicktest('gallery')
+          }}
+          className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold"
+        >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Gallery
           </p>
