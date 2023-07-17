@@ -1,7 +1,7 @@
 import Main from 'pages/main'
 import NavBar from './navbar'
 import { Outlet, useNavigation } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 
 function Root() {
@@ -11,9 +11,9 @@ function Root() {
       <div className="fixed top-0 mx-auto left-0 right-0 z-50">
         <NavBar />
       </div>
-      <div className="">
+      <Suspense fallback={<div>Loading</div>}>
         <Outlet />
-      </div>
+      </Suspense>
     </div>
   )
 }
