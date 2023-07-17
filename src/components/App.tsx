@@ -11,6 +11,7 @@ import Errpage from 'pages/Error'
 import { Testrouter } from 'pages/testrouter'
 import Gcard from './resgallery card/Gallerycard'
 import Gallery from 'pages/Gallery'
+import Gallerydetail from 'pages/Gallerydetail'
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,16 @@ const router = createBrowserRouter([
     errorElement: <Errpage />,
     children: [
       { path: '', element: <Main /> },
-      { path: 'gallery', element: <Gallery /> },
+      {
+        path: 'gallery',
+        children: [
+          { path: '', element: <Gallery /> },
+          {
+            path: ':name/:id',
+            element: <Gallerydetail />
+          }
+        ]
+      },
       {
         path: 'chef',
 

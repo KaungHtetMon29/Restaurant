@@ -46,6 +46,7 @@ function Gallery() {
             about={e.about}
             img={imgarr[index]}
             key={e.name}
+            index={index}
           />
         )
       })}
