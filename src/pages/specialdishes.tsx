@@ -30,7 +30,7 @@ export function Sdish() {
           exit={{ y: 100, opacity: 0 }}
         >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
-            <img src={dish1} className="2xl:w-full xl:w-44" />
+            <img src={dish1} className="2xl:w-full xl:w-44" loading="lazy" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
             <p className="font-bold 2xl:text-xl xl:text-lg">
@@ -54,7 +54,7 @@ export function Sdish() {
           exit={{ y: 100, opacity: 0 }}
         >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
-            <img src={dish2} className="2xl:w-full xl:w-44" />
+            <img src={dish2} className="2xl:w-full xl:w-44" loading="lazy" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
             <p className="font-bold 2xl:text-xl xl:text-lg">Fish and Veggie</p>
@@ -76,7 +76,7 @@ export function Sdish() {
           exit={{ y: 100, opacity: 0 }}
         >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
-            <img src={dish3} className="2xl:w-full xl:w-44" />
+            <img src={dish3} className="2xl:w-full xl:w-44" loading="lazy" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
             <p className="font-bold 2xl:text-xl xl:text-lg">Tofu Chili</p>
@@ -98,7 +98,7 @@ export function Sdish() {
           exit={{ y: 100, opacity: 0 }}
         >
           <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40">
-            <img src={dish4} className="2xl:w-full xl:w-44" />
+            <img src={dish4} className="2xl:w-full xl:w-44" loading="lazy" />
           </div>
           <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10   rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
             <p className="font-bold 2xl:text-xl xl:text-lg">Egg and Cocumber</p>
@@ -120,7 +120,7 @@ export function Sdish() {
               transition: { duration: 0.4, type: 'spring' }
             }}
           >
-            <img src={dish} alt="" className="w-fit" />
+            <img src={dish} alt="" className="w-fit" loading="lazy" />
           </motion.div>
           <div className="w-1/2 2xl:mt-52 2xl:pl-24 xl:mt-24 xl:pl-14 2xl:mr-0 ">
             <h1 className="2xl:text-5xl xl:text-4xl">

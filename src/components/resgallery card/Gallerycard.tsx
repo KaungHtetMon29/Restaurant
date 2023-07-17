@@ -17,7 +17,7 @@ function Gcard({ name, about, img }: Ginput) {
       className=" mx-2 my-4  flex flex-col bg-white px-4 py-8 w-1/4 shadow-xl rounded-xl"
     >
       <div className="">
-        <img src={img} className="rounded-xl" />
+        <img src={img} className="rounded-xl" loading="lazy" />
       </div>
       <div className="">
         <h1 className="font-segoe font-bold text-custorange py-2 text-xl">

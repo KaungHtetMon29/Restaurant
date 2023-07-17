@@ -204,7 +204,7 @@ export function Chef() {
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
           >
-            <img src={chef} alt="" className="w-full" />
+            <img src={chef} alt="" className="w-full" loading="lazy" />
           </motion.div>
         </div>
       </div>

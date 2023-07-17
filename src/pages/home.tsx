@@ -62,7 +62,7 @@ export function Home() {
         }}
       >
         <div className="2xl:w-11/12 justify-end 2xl:mt-40 xl:m-auto xl:mt-36 xl:w-10/12  xl:mr-0">
-          <img src={menu} alt="" />
+          <img src={menu} alt="" loading="lazy" />
         </div>
       </motion.div>
       <motion.div
@@ -73,7 +73,7 @@ export function Home() {
           transition: { duration: 0.4, type: 'spring', delay: 0.2 }
         }}
       >
-        <img src={dish} alt="" className="" />
+        <img src={dish} alt="" className="" loading="lazy" />
       </motion.div>
     </div>
   )

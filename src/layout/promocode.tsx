@@ -9,7 +9,7 @@ export function Getpromo() {
           <Searchbox />
         </div>
         <div>
-          <img src={promo} className=" flex z-1" />
+          <img src={promo} className=" flex z-1" loading="lazy" />
         </div>
       </div>
     </div>
