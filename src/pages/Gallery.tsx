@@ -6,6 +6,7 @@ import res3 from 'Assets/res3.jpg'
 import res4 from 'Assets/res4.jpg'
 import res5 from 'Assets/res5.jpg'
 import res6 from 'Assets/res6.jpg'
+import { useEffect } from 'react'
 
 function Gallery() {
   let imgarr = [
@@ -24,6 +25,18 @@ function Gallery() {
     res3,
     res4
   ]
+  useEffect(() => {
+    const handleWindowLoad = () => {
+      console.log('Window loaded')
+      // Additional actions upon window load
+    }
+
+    window.addEventListener('load', handleWindowLoad)
+
+    return () => {
+      window.removeEventListener('load', handleWindowLoad)
+    }
+  }, [])
   return (
     <div className="flex flex-wrap mx-82 justify-center mt-32">
       {data.map((e, index) => {
