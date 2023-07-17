@@ -1,11 +1,11 @@
 import Gcard from 'components/resgallery card/Gallerycard'
 import data from '../JSON/Gallery.json'
-import res1 from 'Assets/res1.jpg'
-import res2 from 'Assets/res2.jpg'
-import res3 from 'Assets/res3.jpg'
-import res4 from 'Assets/res4.jpg'
-import res5 from 'Assets/res5.jpg'
-import res6 from 'Assets/res6.jpg'
+import res1 from 'Assets/res1.png'
+import res2 from 'Assets/res2.png'
+import res3 from 'Assets/res3.png'
+import res4 from 'Assets/res4.png'
+import res5 from 'Assets/res5.png'
+import res6 from 'Assets/res6.png'
 import { useEffect } from 'react'
 
 function Gallery() {
