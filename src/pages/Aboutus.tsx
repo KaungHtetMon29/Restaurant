@@ -21,7 +21,7 @@ function Aboutus() {
               <img src={sburger} width={50} />
             </div>
           </div>
-          <div className="mt-12 text-2xl tracking-widest leading-10   ">
+          <div className="mt-12 text-2xl tracking-widest leading-10 pr-8   ">
             <span className="font-bold text-3xl">
               Welcome to{' '}
               <span className="text-custorange">Delicious Bites</span>
