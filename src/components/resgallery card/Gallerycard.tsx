@@ -1,14 +1,18 @@
 import res1 from 'Assets/res1.jpg'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import clock from 'Assets/svgs/clock.svg'
+import locate from 'Assets/svgs/location.svg'
 
 type Ginput = {
   name: string
   about: string
+  time: string
+  location: string
   img: any
   index: number
 }
-function Gcard({ name, about, img, index }: Ginput) {
+function Gcard({ name, about, time, location, img, index }: Ginput) {
   const navigate = useNavigate()
   const navi = () => {
     navigate(`${name}/${index}`)
@@ -35,8 +39,23 @@ function Gcard({ name, about, img, index }: Ginput) {
         <h1 className="font-segoe font-bold text-custorange py-2 text-xl">
           {name}
         </h1>
-        <p className="font-segoe tracking-tight leading-5 text-xs text-custblack">
-          {about}
+        <div className="flex items-center">
+          <img src={locate} width={15} className="mr-2" />
+          <h2 className="font-segoe font-semibold text-custblack py-0 text-lg">
+            Location
+          </h2>
+        </div>
+        <p className="font-segoe tracking-widest leading-5 text-xs text-custblack">
+          {location}
+        </p>
+        <div className="flex items-center pt-2">
+          <img src={clock} width={15} className="mr-2" />
+          <h2 className="font-segoe font-semibold text-custblack py-0 text-lg">
+            Opening Hour
+          </h2>
+        </div>
+        <p className="font-segoe tracking-widest leading-5 text-xs text-custblack">
+          {time}
         </p>
       </div>
     </motion.div>

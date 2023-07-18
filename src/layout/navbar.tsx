@@ -110,7 +110,7 @@ function NavBar() {
           className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold"
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
-            Gallery
+            Branches
           </p>
         </div>
         <div className="2xl:pl-10 2xl:pr-5 xxl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
