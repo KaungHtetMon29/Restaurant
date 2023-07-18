@@ -10,7 +10,7 @@ function NavBar() {
   useEffect(() => {
     var navb = document.querySelector('.nav')
     const scrolldetect = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 50) {
         navb?.classList.add('bg-white')
         navb?.classList.add('pb-5')
       } else {
