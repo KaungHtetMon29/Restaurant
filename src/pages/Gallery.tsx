@@ -29,16 +29,7 @@ function Gallery() {
     res4
   ]
   useEffect(() => {
-    const handleWindowLoad = () => {
-      console.log('Window loaded')
-      // Additional actions upon window load
-    }
-
-    window.addEventListener('load', handleWindowLoad)
-
-    return () => {
-      window.removeEventListener('load', handleWindowLoad)
-    }
+    window.scrollTo(0, 0)
   }, [])
   return (
     <>
@@ -51,7 +42,7 @@ function Gallery() {
       <div className="absolute 2xl:right-36 2xl:mt-36 xl:right-36 xl:mt-32 xl:w-2/5">
         <img src={leavehome} />
       </div>
-      <div className="relative flex flex-wrap 2xl:mx-48 justify-center pt-32 ">
+      <div className="relative flex flex-wrap 2xl:mx-36 justify-center pt-32 ">
         {data.map((e, index) => {
           return (
             <Gcard

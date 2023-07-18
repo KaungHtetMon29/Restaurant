@@ -35,7 +35,7 @@ function Gcard({ name, about, time, location, img, index }: Ginput) {
           alt="restaurant img"
         />
       </div>
-      <div className="">
+      <div className="pl-3">
         <h1 className="font-segoe font-bold text-custorange py-2 text-xl">
           {name}
         </h1>
@@ -48,7 +48,7 @@ function Gcard({ name, about, time, location, img, index }: Ginput) {
         <p className="font-segoe tracking-widest leading-5 text-xs text-custblack">
           {location}
         </p>
-        <div className="flex items-center pt-2">
+        <div className="flex items-center pt-2 ">
           <img src={clock} width={15} className="mr-2" />
           <h2 className="font-segoe font-semibold text-custblack py-0 text-lg">
             Opening Hour

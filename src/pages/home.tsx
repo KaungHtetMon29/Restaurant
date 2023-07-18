@@ -5,8 +5,12 @@ import insta from '../Assets/svgs/insticon.svg'
 import fb from '../Assets/svgs/fbicon.svg'
 import twitter from '../Assets/svgs/twitter.svg'
 import { motion, spring } from 'framer-motion'
+import { useEffect } from 'react'
 
 export function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="flex relative 2xl:mx-82 2xl:mb-40 xl:mx-60 xl:mb-20">
       <div className="2xl:text-6xl w-1/2 2xl:pt-60 xl:pt-60 xl:text-5xl">

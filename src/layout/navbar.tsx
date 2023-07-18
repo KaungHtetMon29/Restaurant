@@ -89,7 +89,7 @@ function NavBar() {
       </div>
       <div className="flex 2xl:text-lg xl:text-md">
         <div
-          className="2xl:pl-5 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold "
+          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold "
           onClick={() => {
             clicktest('')
           }}
@@ -98,7 +98,7 @@ function NavBar() {
             Home
           </p>
         </div>
-        <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
+        <div className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Event
           </p>
@@ -107,22 +107,27 @@ function NavBar() {
           onClick={() => {
             clicktest('gallery')
           }}
-          className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold"
+          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold"
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Branches
           </p>
         </div>
-        <div className="2xl:pl-10 2xl:pr-5 xxl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
+        <div
+          onClick={() => {
+            clicktest('aboutus')
+          }}
+          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold"
+        >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             About Us
           </p>
         </div>
-        <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
+        {/* <div className="2xl:pl-10 2xl:pr-5 xl:pl-5 xl:pr-5 cursor-pointer font-segoe font-semibold">
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Contact
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className="2xl:pl-32 xl:pl-16">

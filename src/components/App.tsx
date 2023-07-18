@@ -12,6 +12,7 @@ import { Testrouter } from 'pages/testrouter'
 import Gcard from './resgallery card/Gallerycard'
 import Gallery from 'pages/Gallery'
 import Gallerydetail from 'pages/Gallerydetail'
+import Aboutus from 'pages/Aboutus'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
           }
         ]
       },
+      { path: 'aboutus', element: <Aboutus /> },
       {
         path: 'chef',
 
