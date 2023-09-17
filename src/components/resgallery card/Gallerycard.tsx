@@ -25,12 +25,12 @@ function Gcard({ name, about, time, location, img, index }: Ginput) {
       initial={{ y: 100, opacity: 0 }}
       transition={{ type: 'spring', delay: 0 }}
       exit={{ y: 100, opacity: 0 }}
-      className=" mx-2 my-4  flex flex-col bg-white px-4 py-8 w-1/4 shadow-xl rounded-xl"
+      className=" my-4  flex flex-col bg-white px-4 py-8 w-1/4  shadow-xl rounded-xl"
     >
-      <div className="">
+      <div className="w-full">
         <img
           src={img}
-          className="rounded-xl"
+          className="rounded-xl object-cover h-72 w-full"
           loading="lazy"
           alt="restaurant img"
         />

@@ -13,6 +13,7 @@ import Gcard from './resgallery card/Gallerycard'
 import Gallery from 'pages/Gallery'
 import Gallerydetail from 'pages/Gallerydetail'
 import Aboutus from 'pages/Aboutus'
+import EventPage from 'pages/Event'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     errorElement: <Errpage />,
     children: [
       { path: '', element: <Main /> },
+      { path: 'event', element: <EventPage /> },
       {
         path: 'gallery',
         children: [

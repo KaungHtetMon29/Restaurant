@@ -32,7 +32,7 @@ function Gallery() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <>
+    <div className="mb-64">
       <div className="absolute w-96">
         <img src={circle} />
       </div>
@@ -42,7 +42,7 @@ function Gallery() {
       <div className="absolute 2xl:right-36 2xl:mt-36 xl:right-36 xl:mt-32 xl:w-2/5">
         <img src={leavehome} />
       </div>
-      <div className="relative flex flex-wrap 2xl:mx-36 justify-center pt-32 ">
+      <div className="relative flex flex-wrap 2xl:mx-32 justify-center pt-32 gap-y-8 gap-x-4">
         {data.map((e, index) => {
           return (
             <Gcard
@@ -57,7 +57,7 @@ function Gallery() {
           )
         })}
       </div>
-    </>
+    </div>
   )
 }
 export default Gallery
