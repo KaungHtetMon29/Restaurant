@@ -20,9 +20,9 @@ export function Sdish() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center 2xl:mt-32 xl:mt-40">
+      <div className="flex justify-center 2xl:mt-32 xl:mt-40 gap-4">
         <motion.div
-          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          className="2xl:w-1/4 relative xl:w-1/4"
           whileHover={{ scale: 1.1, transition: { delay: 0 } }}
           whileInView={{ y: 0, opacity: 1 }}
           initial={{ y: 100, opacity: 0 }}
@@ -43,7 +43,7 @@ export function Sdish() {
           </div>
         </motion.div>
         <motion.div
-          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          className="2xl:w-1/4 relative xl:w-1/4"
           whileHover={{ scale: 1.1, transition: { delay: 0 } }}
           whileInView={{
             y: 0,
@@ -65,7 +65,7 @@ export function Sdish() {
           </div>
         </motion.div>
         <motion.div
-          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          className="2xl:w-1/4 relative xl:w-1/4"
           whileHover={{ scale: 1.1, transition: { delay: 0 } }}
           whileInView={{
             y: 0,
@@ -87,7 +87,7 @@ export function Sdish() {
           </div>
         </motion.div>
         <motion.div
-          className="2xl:w-1/4 relative 2xl:mr-8 xl:mr-4 xl:w-1/4"
+          className="2xl:w-1/4 relative xl:w-1/4"
           whileHover={{ scale: 1.1, transition: { delay: 0 } }}
           whileInView={{
             y: 0,

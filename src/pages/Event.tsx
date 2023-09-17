@@ -4,7 +4,7 @@ import hh from 'Assets/Happy_hour.png'
 import lm from 'Assets/Live Music.jpg'
 function EventPage() {
   return (
-    <div className="relative flex flex-col items-center max-w-6xl mx-auto">
+    <div className="relative flex flex-col items-center 2xl:max-w-6xl xl:max-w-5xl md:max-w-4xl mx-auto">
       <div className="my-64  text-custblack font-segoe  items-center gap-12 flex flex-col">
         <div className="flex flex-col gap-4">
           <h1 className="text-center font-bold text-6xl">Events</h1>
@@ -34,8 +34,10 @@ function EventPage() {
       <div className="mt-0 mb-96 gap-48 flex flex-col">
         <div className="flex gap-12">
           <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center">
-            <h2 className="text-5xl font-bold text-custorange">Chef's Table</h2>
-            <p className="text-lg">
+            <h2 className="text-5xl font-bold text-custorange text-right">
+              Chef's Table
+            </h2>
+            <p className="2xl:text-lg xl:text-base text-right">
               Welcome to the Chief's Table Gala, a culinary extravaganza like no
               other. Prepare to embark on a tantalizing journey of taste and
               sophistication as our master chefs weave their culinary magic into
@@ -66,7 +68,7 @@ function EventPage() {
             <h2 className="text-5xl font-bold text-custorange">
               Fundrising Event
             </h2>
-            <p className="text-lg">
+            <p className="2xl:text-lg xl:text-base">
               Join us at [Restaurant Name] for an evening of culinary
               enchantment with a purpose! Our Fundraising Event promises an
               extraordinary dining experience that blends gastronomic excellence
@@ -80,9 +82,9 @@ function EventPage() {
           </div>
         </div>
         <div className="flex gap-12">
-          <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center">
+          <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center text-right">
             <h2 className="text-5xl font-bold text-custorange">Happy Hour</h2>
-            <p className="text-lg">
+            <p className="2xl:text-lg xl:text-base">
               Get ready to elevate your evenings with our Happy Hour event! Join
               us every day from 6pm to 9pm for a fantastic celebration of good
               times and great deals. Sip on refreshing cocktails expertly
@@ -108,7 +110,7 @@ function EventPage() {
           </div>
           <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center">
             <h2 className="text-5xl font-bold text-custorange">Live Music</h2>
-            <p className="text-lg">
+            <p className="2xl:text-lg xl:text-base">
               Immerse yourself in the perfect blend of dining and entertainment
               at Our Restaurant as we present our Live Music Event. Join us
               everyday for an unforgettable night filled with captivating
