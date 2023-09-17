@@ -34,8 +34,10 @@ function EventPage() {
       <div className="mt-0 mb-96 gap-48 flex flex-col">
         <div className="flex gap-12">
           <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center">
-            <h2 className="text-5xl font-bold text-custorange">Chef's Table</h2>
-            <p className="2xl:text-lg xl:text-base">
+            <h2 className="text-5xl font-bold text-custorange text-right">
+              Chef's Table
+            </h2>
+            <p className="2xl:text-lg xl:text-base text-right">
               Welcome to the Chief's Table Gala, a culinary extravaganza like no
               other. Prepare to embark on a tantalizing journey of taste and
               sophistication as our master chefs weave their culinary magic into
@@ -80,7 +82,7 @@ function EventPage() {
           </div>
         </div>
         <div className="flex gap-12">
-          <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center">
+          <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center text-right">
             <h2 className="text-5xl font-bold text-custorange">Happy Hour</h2>
             <p className="2xl:text-lg xl:text-base">
               Get ready to elevate your evenings with our Happy Hour event! Join
