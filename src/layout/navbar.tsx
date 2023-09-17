@@ -98,7 +98,12 @@ function NavBar() {
             Home
           </p>
         </div>
-        <div className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold">
+        <div
+          onClick={() => {
+            clicktest('event')
+          }}
+          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold"
+        >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Event
           </p>

@@ -13,7 +13,7 @@ function Aboutus() {
   }, [])
   let icon = [cookie, waiter, heart]
   return (
-    <div className="pt-32 flex flex-col items-center">
+    <div className="pt-32 flex flex-col items-center mb-64">
       <div className="flex mb-48 mx-82">
         <motion.div
           className="flex flex-col grow  font-segoe  mt-20 w-1/2 pr-10 "

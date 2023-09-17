@@ -46,17 +46,11 @@ function Main() {
         </div>
 
         <div className="relative">
-          <div className="absolute flex mx-auto left-0 right-0 promo 2xl:w-fit xl:w-1/2">
-            <Getpromo />
-          </div>
           <div className="bg-custgray ">
             <div className="absolute mt-32">
               <img src={customer} />
             </div>
             <Hcustomer />
-          </div>
-          <div>
-            <Foter />
           </div>
         </div>
       </div>
