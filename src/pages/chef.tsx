@@ -2,7 +2,7 @@ import CustButton from 'components/button/button'
 import chef from '../Assets/chef 1.png'
 import { motion } from 'framer-motion'
 
-export function Chef() {
+function Chef() {
   return (
     <div className="2xl:mx-82 mt-40 mb-40 xl:mx-60">
       <div className="flex ">
@@ -211,3 +211,4 @@ export function Chef() {
     </div>
   )
 }
+export default Chef
