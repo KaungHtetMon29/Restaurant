@@ -12,15 +12,15 @@ function Adv({ img, head, para }: adv) {
       initial={{ y: 100, opacity: 0 }}
       transition={{ type: 'spring', delay: 0 }}
       exit={{ y: 100, opacity: 0 }}
-      className="flex flex-col w-1/3 mx-4 rounded-2xl shadow-xl border-custorange bg-white px-12 py-8 font-segoe items-center"
+      className="flex flex-col w-1/3 mx-4 rounded-2xl shadow-xl border-custorange bg-white xl:px-12 lg:px-6 py-8 font-segoe items-center"
     >
-      <div>
+      <div className="flex xl:w-fit lg:w-12">
         <img src={img} width={100} />
       </div>
-      <div className="font-bold text-2xl text-center mt-12">
+      <div className="font-bold xl:text-2xl lg:text-lg text-center mt-12">
         <h1>{head}</h1>
       </div>
-      <div className="text-center mt-12 leading-7 text-md">
+      <div className="text-center mt-12 leading-7 xl:text-md lg:text-sm">
         <p>{para}</p>
       </div>
     </motion.div>

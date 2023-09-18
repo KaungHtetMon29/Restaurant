@@ -4,7 +4,7 @@ export function Hcustomer() {
   return (
     <div className="pb-20">
       <div>
-        <div className="2xl:text-7xl xl:text-5xl pt-32 text-center">
+        <div className="2xl:text-7xl xl:text-5xl lg:text-4xl pt-32 text-center">
           <p>Our Happy Customers</p>
         </div>
         <div className=" pt-20 font-segoe 2xl:font-light xl:font-normal text-xl">

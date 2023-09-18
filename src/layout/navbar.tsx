@@ -24,8 +24,8 @@ function NavBar() {
     }
   }, [])
   return (
-    <div className="flex text-center items-center justify-center 2xl:pt-10 xl:pt-10 sticky top-0 z-50 nav  ">
-      <div className="2xl:pr-32 2xl:pb-3 xl:pr-16 xl:pb-3">
+    <div className="flex text-center items-center justify-center 2xl:pt-10 xl:pt-10 lg:pt-10 sticky top-0 z-50 nav  ">
+      <div className="2xl:pr-32 2xl:pb-3 xl:pr-16 xl:pb-3 lg:pb-4 lg:pr-16">
         <svg
           width="160"
           height="50"
@@ -87,9 +87,9 @@ function NavBar() {
           </defs>
         </svg>
       </div>
-      <div className="flex 2xl:text-lg xl:text-md">
+      <div className="flex 2xl:text-lg xl:text-md gap-12">
         <div
-          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold "
+          className="2xl:pl-10 xl:pl-10  cursor-pointer font-segoe font-semibold "
           onClick={() => {
             clicktest('')
           }}
@@ -102,7 +102,7 @@ function NavBar() {
           onClick={() => {
             clicktest('event')
           }}
-          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold"
+          className="2xl:pl-10  xl:pl-10  cursor-pointer font-segoe font-semibold"
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Event
@@ -112,7 +112,7 @@ function NavBar() {
           onClick={() => {
             clicktest('gallery')
           }}
-          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold"
+          className="2xl:pl-10  xl:pl-10  cursor-pointer font-segoe font-semibold"
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             Branches
@@ -122,7 +122,7 @@ function NavBar() {
           onClick={() => {
             clicktest('aboutus')
           }}
-          className="2xl:pl-10 2xl:pr-12 xl:pl-10 xl:pr-12 cursor-pointer font-segoe font-semibold"
+          className="2xl:pl-10  xl:pl-10 cursor-pointer font-segoe font-semibold"
         >
           <p className="hover:bg-custorange hover:text-white px-3 py-1 rounded-md">
             About Us
@@ -135,7 +135,7 @@ function NavBar() {
         </div> */}
       </div>
 
-      <div className="2xl:pl-32 xl:pl-16">
+      <div className="2xl:pl-32 xl:pl-16 lg:pl-16">
         <CustButton txt="Book a Table" clr="bg-custorange" />
       </div>
     </div>

@@ -14,7 +14,7 @@ function Aboutus() {
   let icon = [cookie, waiter, heart]
   return (
     <div className="pt-32 flex flex-col items-center mb-64">
-      <div className="flex mb-48 mx-82">
+      <div className="flex mb-48 xl:mx-82 lg:mx-24 items-center">
         <motion.div
           className="flex flex-col grow  font-segoe  mt-20 w-1/2 pr-10 "
           initial={{ opacity: 0 }}
@@ -23,14 +23,14 @@ function Aboutus() {
             transition: { duration: 1, delay: 0.1 }
           }}
         >
-          <div className="flex text-5xl font-bold  text-custorange">
+          <div className="flex xl:text-5xl lg:text-4xl font-bold  text-custorange">
             <div>About us</div>
             <div className="ml-4">
               <img src={sburger} width={50} />
             </div>
           </div>
-          <div className="mt-12 text-2xl tracking-widest leading-10 pr-8 ">
-            <span className="font-bold text-3xl">
+          <div className="mt-12 xl:text-2xl lg:text-lg xl:tracking-widest lg:tracking-normal leading-10 pr-8 ">
+            <span className="font-bold xl:text-3xl lg:text-xl">
               Welcome to{' '}
               <span className="text-custorange">Delicious Bites</span>
             </span>{' '}
@@ -59,7 +59,7 @@ function Aboutus() {
         <div className="text-5xl font-bold font-segoe  mt-48">
           <h1>What You Will Get</h1>
         </div>
-        <div className="flex mx-82 mt-24">
+        <div className="flex xl:mx-82 lg:mx-24 mt-24">
           {data.map((e, index) => {
             return <Adv img={icon[index]} head={e.title} para={e.content} />
           })}
