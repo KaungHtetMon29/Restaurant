@@ -4,7 +4,7 @@ import hh from 'Assets/Happy_hour.png'
 import lm from 'Assets/Live Music.jpg'
 function EventPage() {
   return (
-    <div className="relative flex flex-col items-center 2xl:max-w-6xl xl:max-w-5xl md:max-w-4xl mx-auto">
+    <div className="relative flex flex-col items-center 2xl:max-w-6xl xl:max-w-5xl lg:max-w-[50rem] md:max-w-xl mx-auto">
       <div className="my-64  text-custblack font-segoe  items-center gap-12 flex flex-col">
         <div className="flex flex-col gap-4">
           <h1 className="text-center font-bold text-6xl">Events</h1>
@@ -15,7 +15,7 @@ function EventPage() {
             Welcome to our event page, where a world of exciting opportunities
             awaits you!
           </p>
-          <p className="text-center text-lg text-custblack leading-9">
+          <p className="text-center xl:text-lg lg:text-base text-custblack xl:leading-9 lg:leading-2 ">
             Our website's event section is a treasure trove of diverse and
             captivating experiences, designed to cater to every interest and
             passion. Whether you're a music enthusiast, a fitness junkie, a
@@ -37,7 +37,7 @@ function EventPage() {
             <h2 className="text-5xl font-bold text-custorange text-right">
               Chef's Table
             </h2>
-            <p className="2xl:text-lg xl:text-base text-right">
+            <p className="2xl:text-lg xl:text-base lg:text-sm text-right">
               Welcome to the Chief's Table Gala, a culinary extravaganza like no
               other. Prepare to embark on a tantalizing journey of taste and
               sophistication as our master chefs weave their culinary magic into
@@ -68,7 +68,7 @@ function EventPage() {
             <h2 className="text-5xl font-bold text-custorange">
               Fundrising Event
             </h2>
-            <p className="2xl:text-lg xl:text-base">
+            <p className="2xl:text-lg xl:text-base lg:text-sm">
               Join us at [Restaurant Name] for an evening of culinary
               enchantment with a purpose! Our Fundraising Event promises an
               extraordinary dining experience that blends gastronomic excellence
@@ -84,7 +84,7 @@ function EventPage() {
         <div className="flex gap-12">
           <div className="font-segoe w-1/2 flex flex-col gap-8 justify-center text-right">
             <h2 className="text-5xl font-bold text-custorange">Happy Hour</h2>
-            <p className="2xl:text-lg xl:text-base">
+            <p className="2xl:text-lg xl:text-base lg:text-sm">
               Get ready to elevate your evenings with our Happy Hour event! Join
               us every day from 6pm to 9pm for a fantastic celebration of good
               times and great deals. Sip on refreshing cocktails expertly

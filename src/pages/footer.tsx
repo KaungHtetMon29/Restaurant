@@ -4,8 +4,8 @@ import fb from '../Assets/svgs/fbicon.svg'
 import twitter from '../Assets/svgs/twitter.svg'
 export function Foter() {
   return (
-    <div className="flex flex-col 2xl:mx-82 xl:mx-60 2xl:pt-40 xl:pt-40 pb-52">
-      <div className="flex 2xl:pt-40 xl:pt-12">
+    <div className="flex flex-col 2xl:mx-82 xl:mx-60 lg:mx-32 2xl:pt-40 xl:pt-40 lg:pt-40 pb-52">
+      <div className="flex 2xl:pt-40 xl:pt-12 lg:pt-12">
         <div className="flex flex-col w-1/2 ">
           <div>
             <img src={logo} alt="" />
