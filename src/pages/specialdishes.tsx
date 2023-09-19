@@ -15,7 +15,7 @@ export function Sdish() {
     'Egg and Cocumber'
   ]
   return (
-    <div className="flex flex-col justify-center 2xl:mx-82 2xl:z-48 2xl:pb-40 xl:mx-60 z-48 xl:pb-40 lg:mx-32 lg:pb-40 ">
+    <div className="flex flex-col justify-center 2xl:mx-82 2xl:z-48 2xl:pb-40 xl:mx-32 z-48 xl:pb-40 lg:mx-32 lg:pb-40 ">
       <div className="flex flex-col">
         <div className="2xl:text-7xl 2xl:pt-32 xl:text-7xl xl:pt-32 lg:pt-32 lg:text-6xl text-center">
           <p className="xl:text-6xl lg:text-5xl">Our Special Dishes</p>
@@ -69,7 +69,7 @@ export function Sdish() {
           >
             <img src={dish} alt="" className="w-fit" loading="lazy" />
           </motion.div>
-          <div className="w-1/2 2xl:mt-52 2xl:pl-24 xl:mt-24 xl:pl-14 2xl:mr-0 gap-4 flex flex-col  ">
+          <div className="w-1/2 2xl:pl-24 xl:pl-14 2xl:mr-0 gap-4 flex flex-col  ">
             <h1 className="2xl:text-5xl xl:text-4xl lg:text-3xl">
               Welcome to Our Restaurant
             </h1>

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Chef() {
   return (
-    <div className="2xl:mx-82 mt-40 mb-40 xl:mx-60 lg:mx-32">
+    <div className="2xl:mx-82 mt-40 mb-40 xl:mx-32 lg:mx-32">
       <div className="flex ">
         <div className="w-1/2 flex flex-col justify-start 2xl:mt-14 xl:mt-14 lg:mt-0 grow  ">
           <h1 className="2xl:text-6xl xl:text-5xl lg:text-4xl font-bold">
