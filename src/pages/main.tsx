@@ -21,7 +21,7 @@ function Main() {
       <div className="absolute w-96">
         <img src={circle} />
       </div>
-      <div className="absolute 2xl:left-20 2xl:top-60 xl:left-28 xl:top-3 lg:top-12 lg:left-10 xl:w-full lg:w-24 ...">
+      <div className="absolute 2xl:left-20 2xl:top-60 xl:left-22 xl:top-32 lg:top- lg:left-10 xl:w-24 lg:w-24 ...">
         <img src={textcircle} />
       </div>
       <div className="absolute 2xl:right-36 2xl:mt-36 xl:right-36 xl:mt-32 xl:w-2/5 lg:right-36 lg:mt-32 lg:w-2/5">

@@ -15,40 +15,42 @@ export function Sdish() {
     'Egg and Cocumber'
   ]
   return (
-    <div className="flex flex-col justify-center 2xl:mx-82 2xl:z-48 2xl:pb-40 xl:mx-60 z-48 xl:pb-40 lg:mx-32 lg:pb-40 ">
+    <div className="flex flex-col justify-center 2xl:mx-82 2xl:z-48 2xl:pb-40 xl:mx-32 z-48 xl:pb-40 lg:mx-32 lg:pb-40 md:mx-16 md:pb-20 ">
       <div className="flex flex-col">
-        <div className="2xl:text-7xl 2xl:pt-32 xl:text-7xl xl:pt-32 lg:pt-32 lg:text-6xl text-center">
-          <p className="xl:text-6xl lg:text-5xl">Our Special Dishes</p>
+        <div className="2xl:text-7xl 2xl:pt-32 xl:text-7xl xl:pt-32 lg:pt-32 lg:text-6xl md:text-5xl md:pt-24 text-center">
+          <p className="xl:text-6xl lg:text-5xl md:text-4xl">
+            Our Special Dishes
+          </p>
         </div>
-        <div className=" 2xl:pt-20 font-segoe font-light 2xl:text-xl xl:text-xl xl:pt-20 lg:pt-12">
+        <div className=" 2xl:pt-20 font-segoe font-light 2xl:text-xl xl:text-xl xl:pt-20 lg:pt-12 md:pt-8 md:text-lg">
           <p className="text-center">
             Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed
             do eiusmod tempor incididunt
           </p>
         </div>
       </div>
-      <div className="flex justify-center 2xl:mt-32 xl:mt-40 gap-4 lg:mt-32">
+      <div className="flex justify-center 2xl:mt-32 xl:mt-40 gap-4 lg:mt-32 md:mt-16">
         {photoarr.map((e, i) => (
           <motion.div
-            className="2xl:w-1/4 relative xl:w-1/4 lg:w-fit"
+            className="2xl:w-1/4 relative xl:w-1/4 lg:w-fit md:w-fit flex flex-1"
             whileHover={{ scale: 1.1, transition: { delay: 0 } }}
             whileInView={{ y: 0, opacity: 1 }}
             initial={{ y: 100, opacity: 0 }}
             transition={{ type: 'spring', delay: 0 }}
             exit={{ y: 100, opacity: 0 }}
           >
-            <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40 lg:bottom-36">
+            <div className=" absolute flex w-fit mx-auto left-0 right-0 2xl:bottom-60 z-10 xl:bottom-40 lg:bottom-36 md:bottom-44">
               <img
                 src={e}
-                className="2xl:w-full xl:w-44 lg:w-32"
+                className="2xl:w-full xl:w-44 lg:w-32 md:w-24"
                 loading="lazy"
               />
             </div>
-            <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10 lg:pt-24 lg:pb-10  rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
-              <p className="font-bold 2xl:text-xl xl:text-lg lg:text-base">
+            <div className="relative flex flex-col text-center tracking-wide border-4 hover:bg-white border-white 2xl:pt-52 2xl:pb-10 xl:pt-32 xl:pb-10 lg:pt-24 lg:pb-10 md:pb-10 md:pt-16 rounded-tl-4xl rounded-tr-2xl rounded-bl-2xl rounded-br-4xl">
+              <p className="font-bold 2xl:text-xl xl:text-lg lg:text-base md:text-sm px-3">
                 {titles[i]}
               </p>
-              <p className=" font-segoe 2xl:text-base 2xl:pt-8 xl:pt-8 xl:px-2 xl:text-xs lg:text-xs lg:px-3 leading-6">
+              <p className=" font-segoe 2xl:text-base 2xl:pt-8 xl:pt-8 xl:px-2 xl:text-xs lg:text-xs lg:px-3 md:px-3 md:text-xs leading-6">
                 Lorem ipsum dolor sit ,consectetur adipiscing elit, sed do
                 eiusmod tempor
               </p>
@@ -56,7 +58,7 @@ export function Sdish() {
           </motion.div>
         ))}
       </div>
-      <div className="2xl:mt-40 xl:mt-12 lg:mt-32 flex">
+      <div className="2xl:mt-40 xl:mt-12 lg:mt-32 md:mt-24 flex">
         <div className="flex items-center justify-center">
           <motion.div
             className="w-1/2 m-auto flex grow"
@@ -69,8 +71,8 @@ export function Sdish() {
           >
             <img src={dish} alt="" className="w-fit" loading="lazy" />
           </motion.div>
-          <div className="w-1/2 2xl:mt-52 2xl:pl-24 xl:mt-24 xl:pl-14 2xl:mr-0 gap-4 flex flex-col  ">
-            <h1 className="2xl:text-5xl xl:text-4xl lg:text-3xl">
+          <div className="w-1/2 gap-4 flex flex-col  ">
+            <h1 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl">
               Welcome to Our Restaurant
             </h1>
             <p className="font-segoe 2xl:text-xl xl:text-md 2xl:pt-8 xl:pt-6 lg:text-base">

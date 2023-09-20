@@ -17,8 +17,8 @@ function Root() {
         <Outlet />
       </Suspense>
       <div className="relative">
-        <div className="absolute mx-auto left-0 right-0 xl:-top-52 lg:-top-32">
-          <div className="flex mx-auto left-0 right-0 promo 2xl:w-fit xl:w-1/2 lg:w-4/6">
+        <div className="absolute mx-auto left-0 right-0 2xl:-top-52 xl:-top-32 lg:-top-32">
+          <div className="flex mx-auto left-0 right-0 promo 2xl:w-fit xl:w-4/6 lg:w-4/6">
             <Getpromo />
           </div>
         </div>
